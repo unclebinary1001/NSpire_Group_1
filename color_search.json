@@ -1,0 +1,27 @@
+{
+    "searches":
+    [
+        {
+            "content": "firetruck red",
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 13,
+                    "tag_name": "Red",
+                    "value": "firetruck red"
+                }
+            ]
+        },
+        {
+            "content": "ruby",
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 4,
+                    "tag_name": "Red",
+                    "value": "ruby"
+                }
+            ]
+        }
+    ]
+}
