@@ -1,0 +1,70 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.2,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"aea4a96f9",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "COLOR.RED",
+      "PRODUCT.DRESS",
+      "PRODUCT.JEAN, PRODUCT.BLOUSE, PRODUCT.DRESS",
+      "TYPE.DRESS"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.875,
+    "ents_p":1.0,
+    "ents_r":0.7777777778,
+    "ents_per_type":{
+      "COLOR.RED":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "PRODUCT.JEAN, PRODUCT.BLOUSE, PRODUCT.DRESS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PRODUCT.DRESS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TYPE.DRESS":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      }
+    },
+    "tok2vec_loss":16.5825128269,
+    "ner_loss":431.3836474717
+  }
+}

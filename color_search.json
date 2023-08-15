@@ -7,8 +7,14 @@
                 {
                     "start": 0,
                     "end": 13,
-                    "tag_name": "Red",
+                    "tag_name": "Color.Red",
                     "value": "firetruck red"
+                },
+                {
+                    "start": 10,
+                    "end": 13,
+                    "tag_name": "Color.Red",
+                    "value": "red"
                 }
             ]
         },
@@ -18,10 +24,83 @@
                 {
                     "start": 0,
                     "end": 4,
-                    "tag_name": "Red",
+                    "tag_name": "Color.Red",
                     "value": "ruby"
                 }
             ]
+        },
+        {
+            "content": "scarlet",
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 7,
+                    "tag_name": "Color.Red",
+                    "value": "scarlet"
+                }
+            ]
+        },
+        {
+            "content":"womens jean",
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 6,
+                    "tag_name": "Product.Jean, Product.Blouse, Product.Dress"
+                }
+            ]
+            
+        },
+        {
+            "content":"womens dress",
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 6,
+                    "tag_name": "Product.Jean, Product.Blouse, Product.Dress"
+                },
+                {
+                    "start": 7,
+                    "end": 12,
+                    "tag_name": "Product.Dress"
+                }
+
+            ]
+            
+        },
+        {
+            "content": "scarlet dress",
+            "annotations": [
+                {
+                    "start": 0, 
+                    "end": 7,
+                    "tag_name": "Color.Red",
+                    "value": "scarlet"
+                }
+            ]
+        },
+        {
+            "content": "scarlet dress",
+            "annotations": [
+                {
+                    "start": 8, 
+                    "end": 13,
+                    "tag_name": "Type.Dress",
+                    "value": "dress"
+                }
+            ]
+        },
+        {
+            "content": "dress and",
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 5,
+                    "tag_name": "Type.Dress",
+                    "value": "dress"
+                }
+            ]
         }
+
     ]
 }
